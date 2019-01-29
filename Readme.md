@@ -169,8 +169,8 @@ rtt min/avg/max/mdev = 0.595/0.744/0.910/0.114 ms
 
 - VM2  ( serveur ) -> VM1 ( client )
 
-	```
-	[root@vm2 ~]# ping vm1.tp3.b1
+```
+[root@vm2 ~]# ping vm1.tp3.b1
 PING vm1.tp3.b1 (10.1.0.10) 56(84) bytes of data.
 64 bytes from vm1.tp3.b1 (10.1.0.10): icmp_seq=1 ttl=63 time=1.05 ms
 64 bytes from vm1.tp3.b1 (10.1.0.10): icmp_seq=2 ttl=63 time=0.735 ms
@@ -181,7 +181,7 @@ PING vm1.tp3.b1 (10.1.0.10) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.735/0.852/1.057/0.145 ms
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcxODMzNjYsMjkzNjU4MDA1LC0xMz
-I1NTIwMTM4LC0xOTg1ODQxOTIsMTM1NDc2MzEyNywyMDM0NDAy
-MzAzLC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbLTUxMDQwMzA3OCwyOTM2NTgwMDUsLTEzMj
+U1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIz
+MDMsLTIwMTM1Nzc5NzJdfQ==
 -->
