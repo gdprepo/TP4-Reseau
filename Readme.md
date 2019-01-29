@@ -33,22 +33,22 @@ vm3.tp1.b1
 ```
 
 * Definition IP statique :
-		* VM1 :
+		- VM1 :
 		```
-		
+		ui
 		```		
 
-		* VM2 : 
-		```
-		
-		```
+		- VM2 : 
+		``
+		ijiji
+		``
 
 
 
-		* VM3 :
+		- VM3 :
 		```
-		
+		ijij
 		```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzk2Mzc2NiwtMjAxMzU3Nzk3Ml19
+eyJoaXN0b3J5IjpbNjY5NTA2MTg0LC0yMDEzNTc3OTcyXX0=
 -->
