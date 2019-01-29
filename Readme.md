@@ -182,9 +182,14 @@ rtt min/avg/max/mdev = 0.735/0.852/1.057/0.145 ms
 ```
 
 - Traceroute ( client ) :
-
+```
+[root@vm1 ~]# traceroute vm2.tp3.b1
+traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
+ 1  vm3.tp3.b1 (10.1.0.254)  0.314 ms  0.197 ms  0.172 ms
+ 2  vm2.tp3.b1 (10.2.0.10)  0.654 ms !X  0.555 ms !X  0.702 ms !X
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTkyMTY2NywtNTEwNDAzMDc4LDI5Mz
-Y1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0MTkyLDEzNTQ3NjMx
-MjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml19
+eyJoaXN0b3J5IjpbLTEzOTc3MjI5ODQsLTUxMDQwMzA3OCwyOT
+M2NTgwMDUsLTEzMjU1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYz
+MTI3LDIwMzQ0MDIzMDMsLTIwMTM1Nzc5NzJdfQ==
 -->
