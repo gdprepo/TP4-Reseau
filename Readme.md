@@ -35,7 +35,19 @@ vm3.tp1.b1
 * Definition IP statique :
 		- VM1 :
 		```
-		ui
+
+		[root@vm1 network-scripts]# pwd
+		/etc/sysconfig/network-scripts
+		[root@vm1 network-scripts]# cat ifcfg-enp0s3
+		NAME=enp0s3
+		DEVICE=enp0s3
+
+		BOOTPROTO=static
+		ONBOOT=yes
+
+
+		IPADDR=10.1.0.10
+		NETMASK=255.255.255.0
 		```		
 
 		- VM2 : 
@@ -50,5 +62,5 @@ vm3.tp1.b1
 		ijij
 		```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NTA2MTg0LC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbMTMwNDk0MjM1MCwtMjAxMzU3Nzk3Ml19
 -->
