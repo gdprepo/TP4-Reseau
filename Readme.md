@@ -180,8 +180,11 @@ PING vm1.tp3.b1 (10.1.0.10) 56(84) bytes of data.
 3 packets transmitted, 3 received, 0% packet loss, time 2011ms
 rtt min/avg/max/mdev = 0.735/0.852/1.057/0.145 ms
 ```
+
+- Traceroute ( client ) :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDQwMzA3OCwyOTM2NTgwMDUsLTEzMj
-U1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIz
-MDMsLTIwMTM1Nzc5NzJdfQ==
+eyJoaXN0b3J5IjpbLTg2MTkyMTY2NywtNTEwNDAzMDc4LDI5Mz
+Y1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0MTkyLDEzNTQ3NjMx
+MjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml19
 -->
