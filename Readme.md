@@ -31,6 +31,11 @@ vm3.tp1.b1
 10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.254 metric 100
 10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
 ```
+
+* Definition IP statique :
+		* VM1 :
+		* VM2 :
+		* VM3 :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzODUyMzMxLC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbNDY2NTE2NzI4LC0yMDEzNTc3OTcyXX0=
 -->
