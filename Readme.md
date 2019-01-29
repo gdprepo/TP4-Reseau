@@ -191,9 +191,22 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
 
 ## II -  Spéléologie réseau
 
+### 1. ARP
+#### **A. Manip 1**
+
+* sur client1:
+```
+[root@vm1 ~]# sudo ip neigh flush all
+[root@vm1 ~]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:15 REACHABLE
+```
+* sur serveur1:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwMzUzNDM4LC0xMzk3NzIyOTg0LC01MT
-A0MDMwNzgsMjkzNjU4MDA1LC0xMzI1NTIwMTM4LC0xOTg1ODQx
-OTIsMTM1NDc2MzEyNywyMDM0NDAyMzAzLC0yMDEzNTc3OTcyXX
-0=
+eyJoaXN0b3J5IjpbLTE0NTg5NzMwOTcsLTEzOTc3MjI5ODQsLT
+UxMDQwMzA3OCwyOTM2NTgwMDUsLTEzMjU1MjAxMzgsLTE5ODU4
+NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIzMDMsLTIwMTM1Nzc5Nz
+JdfQ==
 -->
