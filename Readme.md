@@ -209,10 +209,13 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
 
 * sur routeur1:
 ```
-
+[root@vm3 network-scripts]# sudo ip neigh flush all
+[root@vm3 network-scripts]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:15 REACHABLE
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjY4MDcxNywtMTM5NzcyMjk4NCwtNT
+eyJoaXN0b3J5IjpbMTg2NDg5OTU1NywtMTM5NzcyMjk4NCwtNT
 EwNDAzMDc4LDI5MzY1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0
 MTkyLDEzNTQ3NjMxMjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml
 19
