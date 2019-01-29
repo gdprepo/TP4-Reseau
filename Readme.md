@@ -123,15 +123,20 @@ VM1 :
 ### 3. Mise en place du routage statique
 
 * sur routeur 1 :
-			```
-	[root@vm3 network-scripts]# sudo sysctl -w net.ipv4.conf.all.forwarding=1
-	net.ipv4.conf.all.forwarding = 1
-	[root@vm3 network-scripts]# sudo systemctl stop firewalld
-	[root@vm3 network-scripts]# ip route show
-	10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.254 metric 100
-	10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
-	```
+```
+[root@vm3 network-scripts]# sudo sysctl -w net.ipv4.conf.all.forwarding=1
+net.ipv4.conf.all.forwarding = 1
+[root@vm3 network-scripts]# sudo systemctl stop firewalld
+[root@vm3 network-scripts]# ip route show
+10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.254 metric 100
+10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
+```
+
+*	sur client 1: 
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDMwMDI4MiwxMzU0NzYzMTI3LDIwMz
+eyJoaXN0b3J5IjpbLTE5ODU4NDE5MiwxMzU0NzYzMTI3LDIwMz
 Q0MDIzMDMsLTIwMTM1Nzc5NzJdfQ==
 -->
