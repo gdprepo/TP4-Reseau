@@ -52,15 +52,26 @@ vm3.tp1.b1
 
 		- VM2 : 
 		``
-		ijiji
+		[root@vm2 network-scripts]# pwd
+		/etc/sysconfig/network-scripts
+		[root@vm2 network-scripts]# cat ifcfg-enp0s3
+		NAME=enp0s3
+		DEVICE=enp0s3
+
+		BOOTPROTO=static
+		ONBOOT=yes
+
+		IPADDR=10.2.0.10
+		NETMASK=255.255.255.0
 		``
 
 
 
 		- VM3 :
-		```
-		ijij
-		```
+		``
+		
+		``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDk0MjM1MCwtMjAxMzU3Nzk3Ml19
+eyJoaXN0b3J5IjpbLTIwNTUyNDQ1MjQsLTIwMTM1Nzc5NzJdfQ
+==
 -->
