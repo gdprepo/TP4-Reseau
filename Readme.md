@@ -228,10 +228,14 @@ rtt min/avg/max/mdev = 0.630/0.684/0.791/0.081 ms
 [root@vm3 network-scripts]# sudo ip neigh flush all
 [root@vm3 network-scripts]# ip neigh show
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:15 REACHABLE
+[root@vm3 network-scripts]# ip neigh show
+10.2.0.10 dev enp0s8 lladdr 08:00:27:4b:7d:5b STALE
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:15 DELAY
+10.1.0.10 dev enp0s3 lladdr 08:00:27:98:66:3b STALE
 ```
-
+- Explication :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDkwMjcyMSwtMTM5NzcyMjk4NCwtNT
+eyJoaXN0b3J5IjpbMTE0NDEzMzc3NiwtMTM5NzcyMjk4NCwtNT
 EwNDAzMDc4LDI5MzY1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0
 MTkyLDEzNTQ3NjMxMjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml
 19
