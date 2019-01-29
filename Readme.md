@@ -34,8 +34,21 @@ vm3.tp1.b1
 
 * Definition IP statique :
 		* VM1 :
-		* VM2 :
+		```
+		
+		```		
+
+		* VM2 : 
+		```
+		
+		```
+
+
+
 		* VM3 :
+		```
+		
+		```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NTE2NzI4LC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbMTUyNzk2Mzc2NiwtMjAxMzU3Nzk3Ml19
 -->
