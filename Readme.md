@@ -143,8 +143,16 @@ Last login: Tue Jan 29 14:44:33 2019 from 10.1.0.1
 ```
 
 * sur server 1 : 
-* 
+```
+PS C:\Users\Gabin> ssh root@10.2.0.10
+root@10.2.0.10's password:
+Last login: Tue Jan 29 14:45:07 2019 from 10.2.0.1
+[root@vm2 ~]# ip route
+10.2.0.0/24 dev enp0s3 proto kernel scope link src 10.2.0.10 metric 100
+10.2.0.0/24 via 10.2.0.254 dev enp0s3 proto static metric 100
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU1MjAxMzgsLTE5ODU4NDE5MiwxMz
-U0NzYzMTI3LDIwMzQ0MDIzMDMsLTIwMTM1Nzc5NzJdfQ==
+eyJoaXN0b3J5IjpbMjkzNjU4MDA1LC0xMzI1NTIwMTM4LC0xOT
+g1ODQxOTIsMTM1NDc2MzEyNywyMDM0NDAyMzAzLC0yMDEzNTc3
+OTcyXX0=
 -->
