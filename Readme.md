@@ -188,8 +188,12 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
  1  vm3.tp3.b1 (10.1.0.254)  0.314 ms  0.197 ms  0.172 ms
  2  vm2.tp3.b1 (10.2.0.10)  0.654 ms !X  0.555 ms !X  0.702 ms !X
 ```
+
+## II -  Spéléologie réseau
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc3MjI5ODQsLTUxMDQwMzA3OCwyOT
-M2NTgwMDUsLTEzMjU1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYz
-MTI3LDIwMzQ0MDIzMDMsLTIwMTM1Nzc5NzJdfQ==
+eyJoaXN0b3J5IjpbODcwMzUzNDM4LC0xMzk3NzIyOTg0LC01MT
+A0MDMwNzgsMjkzNjU4MDA1LC0xMzI1NTIwMTM4LC0xOTg1ODQx
+OTIsMTM1NDc2MzEyNywyMDM0NDAyMzAzLC0yMDEzNTc3OTcyXX
+0=
 -->
