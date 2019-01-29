@@ -154,14 +154,34 @@ Last login: Tue Jan 29 14:45:07 2019 from 10.2.0.1
 
 * test :
 	- VM1 ( client ) -> VM2 ( serveur )
-``
-
 ```
-	- VM2  ( serveur ) -> VM1 ( client )
+[root@vm1 ~]# ping vm2.tp3.b1
+PING vm2.tp3.b1 (10.2.0.10) 56(84) bytes of data.
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=1 ttl=63 time=0.595 ms
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=2 ttl=63 time=0.735 ms
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=3 ttl=63 time=0.910 ms
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=4 ttl=63 time=0.738 ms
+^C
+--- vm2.tp3.b1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 0.595/0.744/0.910/0.114 ms
+```
 
-	
+- VM2  ( serveur ) -> VM1 ( client )
+
+	```
+	[root@vm2 ~]# ping vm1.tp3.b1
+PING vm1.tp3.b1 (10.1.0.10) 56(84) bytes of data.
+64 bytes from vm1.tp3.b1 (10.1.0.10): icmp_seq=1 ttl=63 time=1.05 ms
+64 bytes from vm1.tp3.b1 (10.1.0.10): icmp_seq=2 ttl=63 time=0.735 ms
+64 bytes from vm1.tp3.b1 (10.1.0.10): icmp_seq=3 ttl=63 time=0.764 ms
+^C
+--- vm1.tp3.b1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2011ms
+rtt min/avg/max/mdev = 0.735/0.852/1.057/0.145 ms
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjUyNzkwNywyOTM2NTgwMDUsLTEzMj
-U1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIz
-MDMsLTIwMTM1Nzc5NzJdfQ==
+eyJoaXN0b3J5IjpbLTE1MjcxODMzNjYsMjkzNjU4MDA1LC0xMz
+I1NTIwMTM4LC0xOTg1ODQxOTIsMTM1NDc2MzEyNywyMDM0NDAy
+MzAzLC0yMDEzNTc3OTcyXX0=
 -->
