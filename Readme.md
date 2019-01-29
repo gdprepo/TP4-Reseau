@@ -2,7 +2,7 @@
 ## I. Mise en place du lab
 
 ### 1. Création des réseaux
-#### 2. Création des VMs
+### 2. Création des VMs
 
 Configuration VM Client:
 
@@ -120,8 +120,10 @@ VM1 :
 	rtt min/avg/max/mdev = 0.411/0.457/0.556/0.052 ms
 	```
 
-	
+### 3. Mise en place du routage statique
+
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDc2MzEyNywyMDM0NDAyMzAzLC0yMD
-EzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbLTEzMjUzNTcwOTAsMTM1NDc2MzEyNywyMD
+M0NDAyMzAzLC0yMDEzNTc3OTcyXX0=
 -->
