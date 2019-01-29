@@ -153,12 +153,15 @@ Last login: Tue Jan 29 14:45:07 2019 from 10.2.0.1
 ```
 
 * test :
-	- VM1 ( clien   -> VM2 
-	```
+	- VM1 ( client ) -> VM2 ( serveur )
+``
 
 ```
+	- VM2  ( serveur ) -> VM1 ( client )
+
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MzUyNjEsMjkzNjU4MDA1LC0xMzI1NT
-IwMTM4LC0xOTg1ODQxOTIsMTM1NDc2MzEyNywyMDM0NDAyMzAz
-LC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbMTEzMjUyNzkwNywyOTM2NTgwMDUsLTEzMj
+U1MjAxMzgsLTE5ODU4NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIz
+MDMsLTIwMTM1Nzc5NzJdfQ==
 -->
