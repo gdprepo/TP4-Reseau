@@ -102,9 +102,26 @@ VM1 :
 	3 packets transmitted, 3 received, 0% packet loss, time 2000ms
 	rtt min/avg/max/mdev = 0.311/0.425/0.521/0.090 ms
 	```
-		
+
+* `server1` ping `router1.tp4` sur l'IP `10.2.0.254`
+	
+	```
+	[root@vm2 network-scripts]# ping vm3.tp3.b1
+	PING vm3.tp3.b1 (10.2.0.254) 56(84) bytes of data.
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=1 ttl=64 time=0.556 ms
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=2 ttl=64 time=0.441 ms
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=3 ttl=64 time=0.420 ms
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=4 ttl=64 time=0.453 ms
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=5 ttl=64 time=0.464 ms
+	64 bytes from vm3.tp3.b1 (10.2.0.254): icmp_seq=6 ttl=64 time=0.411 ms
+	^C
+	--- vm3.tp3.b1 ping statistics ---
+	6 packets transmitted, 6 received, 0% packet loss, time 5017ms
+	rtt min/avg/max/mdev = 0.411/0.457/0.556/0.052 ms
+	```
+
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDExNjQ2NCwyMDM0NDAyMzAzLC0yMD
+eyJoaXN0b3J5IjpbMTM1NDc2MzEyNywyMDM0NDAyMzAzLC0yMD
 EzNTc3OTcyXX0=
 -->
