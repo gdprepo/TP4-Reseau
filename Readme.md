@@ -206,6 +206,22 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
 [root@vm2 ~]# ip neigh show
 10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0f REACHABLE
 ```
+* sur client1:
+```
+[root@vm1 ~]# ping vm2.tp3.b1
+PING vm2.tp3.b1 (10.2.0.10) 56(84) bytes of data.
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=1 ttl=63 time=0.791 ms
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=2 ttl=63 time=0.630 ms
+64 bytes from vm2.tp3.b1 (10.2.0.10): icmp_seq=3 ttl=63 time=0.633 ms
+^C
+--- vm2.tp3.b1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 0.630/0.684/0.791/0.081 ms
+[root@vm1 ~]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:15 REACHABLE
+10.1.0.254 dev enp0s3 lladdr 08:00:27:dc:b3:e0 REACHABLE
+```
+- Explication :
 
 * sur routeur1:
 ```
@@ -215,7 +231,7 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDg5OTU1NywtMTM5NzcyMjk4NCwtNT
+eyJoaXN0b3J5IjpbMTEzNDkwMjcyMSwtMTM5NzcyMjk4NCwtNT
 EwNDAzMDc4LDI5MzY1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0
 MTkyLDEzNTQ3NjMxMjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml
 19
