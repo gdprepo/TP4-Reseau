@@ -36,11 +36,11 @@ vm3.tp1.b1
 VM1 :
 	
 
-	[root@vm1 network-scripts]# pwd
-			/etc/sysconfig/network-scripts
-			[root@vm1 network-scripts]# cat ifcfg-enp0s3
-			NAME=enp0s3
-			DEVICE=enp0s3
+		[root@vm1 network-scripts]# pwd
+		/etc/sysconfig/network-scripts
+		[root@vm1 network-scripts]# cat ifcfg-enp0s3
+		NAME=enp0s3
+		DEVICE=enp0s3
 
 		BOOTPROTO=static
 		ONBOOT=yes
@@ -65,8 +65,6 @@ VM1 :
 		NETMASK=255.255.255.0
 		
 
-
-
 		- VM3 :
 
 			[root@vm3 network-scripts]# pwd
@@ -89,8 +87,11 @@ VM1 :
 
 		IPADDR=10.2.0.254
 		NETMASK=255.255.255.0
+
+
+
 		
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNTI4NDczLC0yMDEzNTc3OTcyXX0=
+eyJoaXN0b3J5IjpbMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml19
 -->
