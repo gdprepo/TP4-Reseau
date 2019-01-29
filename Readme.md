@@ -202,11 +202,18 @@ traceroute to vm2.tp3.b1 (10.2.0.10), 30 hops max, 60 byte packets
 ```
 * sur serveur1:
 ```
+[root@vm2 ~]# sudo ip neigh flush all
+[root@vm2 ~]# ip neigh show
+10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0f REACHABLE
+```
+
+* sur routeur1:
+```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg5NzMwOTcsLTEzOTc3MjI5ODQsLT
-UxMDQwMzA3OCwyOTM2NTgwMDUsLTEzMjU1MjAxMzgsLTE5ODU4
-NDE5MiwxMzU0NzYzMTI3LDIwMzQ0MDIzMDMsLTIwMTM1Nzc5Nz
-JdfQ==
+eyJoaXN0b3J5IjpbMTQyMjY4MDcxNywtMTM5NzcyMjk4NCwtNT
+EwNDAzMDc4LDI5MzY1ODAwNSwtMTMyNTUyMDEzOCwtMTk4NTg0
+MTkyLDEzNTQ3NjMxMjcsMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml
+19
 -->
