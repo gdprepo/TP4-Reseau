@@ -89,9 +89,21 @@ VM1 :
 		NETMASK=255.255.255.0
 
 
-
+* `client1` ping `router1.tp4` sur l'IP `10.1.0.254` :
+	``
+	[root@vm1 network-scripts]# ping vm3.tp3.b1
+PING vm3.tp3.b1 (10.1.0.254) 56(84) bytes of data.
+64 bytes from vm3.tp3.b1 (10.1.0.254): icmp_seq=1 ttl=64 time=0.521 ms
+64 bytes from vm3.tp3.b1 (10.1.0.254): icmp_seq=2 ttl=64 time=0.445 ms
+64 bytes from vm3.tp3.b1 (10.1.0.254): icmp_seq=3 ttl=64 time=0.311 ms
+^C
+--- vm3.tp3.b1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 0.311/0.425/0.521/0.090 ms
+	``
 		
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDQwMjMwMywtMjAxMzU3Nzk3Ml19
+eyJoaXN0b3J5IjpbMTM2MDcxOTkyNiwyMDM0NDAyMzAzLC0yMD
+EzNTc3OTcyXX0=
 -->
