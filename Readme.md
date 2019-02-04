@@ -455,7 +455,7 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt ** ping.pcap **  proc  ro
 
 * Ouvrir le fichier  `ping.pcap`  dans Wireshark:
 
- <img src="./wirechark.PNG">
+ <img src="./wirechark.png">
 
 ## B. Interception d'une communication  `netcat`
 
