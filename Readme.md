@@ -249,7 +249,7 @@ rtt min/avg/max/mdev = 0.630/0.684/0.791/0.081 ms
 10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d REACHABLE
 ```
  Permet d'enregistre l'ip et l'adresse mac, pendant anviron 60 secondes parce que le client à fait un ping.
----------------------------------------------
+
 
 
 ### **B. Manip 2**
@@ -455,7 +455,7 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt ** ping.pcap **  proc  ro
 
 * Ouvrir le fichier  `ping.pcap`  dans Wireshark:
 
- <img src="./Capture_ping_wirechark.PNG">
+ <img src="./wirechark.PNG">
 
 ## B. Interception d'une communication  `netcat`
 
@@ -506,7 +506,7 @@ cool
 sudo tcpdump -i enp0s3 -w netcat_ok.pcap
 ```
 * Capture:
-<img src="./netcat.PNG">
+<img src="./netcat.png">
 
 
 <!--stackedit_data:
